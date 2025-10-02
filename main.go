@@ -27,7 +27,7 @@ func main() {
 
 	if dsn == "" {
 
-		dsn = "backend-programmer:example-password@tcp(127.0.0.1:3306)/testdb"
+		//dsn = "backend-programmer"
 
 	}
 
