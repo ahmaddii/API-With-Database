@@ -171,7 +171,7 @@ func updateUser(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Make sure column names match your DB
+	// Make sure column names match your DB data
 	_, err := db.Exec("UPDATE users SET namee=?, email=? WHERE id=?", u.Name, u.Email, id)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
