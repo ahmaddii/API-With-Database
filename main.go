@@ -109,7 +109,7 @@ func main() {
 		//dsn = "backend-programmer"
 
 =======
-		dsn = "backend-programmer:example-password@tcp(127.0.0.1:3306)/testdb"
+	//	dsn = "backe7.0.0.1:3306)/testdb"
 >>>>>>> 9283fd4 (Jwt Auth and Authorization with Postman Check for Secure APIS)
 	}
 
